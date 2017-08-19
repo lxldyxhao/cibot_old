@@ -1,0 +1,19 @@
+{
+  "name":        "hubot-python-scripts",
+  "version":     "0.0.2",
+  "author":      "maxgoedjen",
+  "keywords":    ["hubot", "python", "scripts", "campfire", "bot", "robot"],
+  "description": "Write Hubot scripts in Python",
+  "main": "./index",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/maxgoedjen/hubot-python-scripts.git"
+  },
+  "enabled_scripts" : [
+  "lastfm.py",
+  "right_hubot.py",
+  "teamcity.py",
+  "jira_lookup.py",
+  "license_plate.py"
+  ]
+}

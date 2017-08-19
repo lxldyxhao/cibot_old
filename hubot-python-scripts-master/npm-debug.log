@@ -1,0 +1,52 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'D:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   './hubot-python-scripts-master/',
+1 verbose cli   '--save' ]
+2 info using npm@3.10.10
+3 info using node@v6.9.4
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData ./hubot-python-scripts-master/
+8 silly fetchOtherPackageData ./hubot-python-scripts-master/
+9 silly cache add args [ './hubot-python-scripts-master/', null ]
+10 verbose cache add spec ./hubot-python-scripts-master/
+11 silly cache add parsed spec Result {
+11 silly cache add   raw: './hubot-python-scripts-master/',
+11 silly cache add   scope: null,
+11 silly cache add   escapedName: null,
+11 silly cache add   name: null,
+11 silly cache add   rawSpec: './hubot-python-scripts-master/',
+11 silly cache add   spec: 'd:\\codes\\hubot\\hubot-python-scripts-master\\hubot-python-scripts-master',
+11 silly cache add   type: 'local' }
+12 error addLocal Could not install d:\codes\hubot\hubot-python-scripts-master\hubot-python-scripts-master
+13 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open 'd:\codes\hubot\hubot-python-scripts-master\hubot-python-scripts-master'
+13 silly fetchPackageMetaData     at Error (native)
+13 silly fetchPackageMetaData  error for ./hubot-python-scripts-master/ { Error: ENOENT: no such file or directory, open 'd:\codes\hubot\hubot-python-scripts-master\hubot-python-scripts-master'
+13 silly fetchPackageMetaData     at Error (native)
+13 silly fetchPackageMetaData   errno: -4058,
+13 silly fetchPackageMetaData   code: 'ENOENT',
+13 silly fetchPackageMetaData   syscall: 'open',
+13 silly fetchPackageMetaData   path: 'd:\\codes\\hubot\\hubot-python-scripts-master\\hubot-python-scripts-master' }
+14 silly rollbackFailedOptional Starting
+15 silly rollbackFailedOptional Finishing
+16 silly runTopLevelLifecycles Finishing
+17 silly install printInstalled
+18 verbose stack Error: ENOENT: no such file or directory, open 'd:\codes\hubot\hubot-python-scripts-master\hubot-python-scripts-master'
+18 verbose stack     at Error (native)
+19 verbose cwd d:\codes\hubot\hubot-python-scripts-master
+20 error Windows_NT 6.1.7601
+21 error argv "D:\\Program Files\\nodejs\\node.exe" "D:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "./hubot-python-scripts-master/" "--save"
+22 error node v6.9.4
+23 error npm  v3.10.10
+24 error path d:\codes\hubot\hubot-python-scripts-master\hubot-python-scripts-master
+25 error code ENOENT
+26 error errno -4058
+27 error syscall open
+28 error enoent ENOENT: no such file or directory, open 'd:\codes\hubot\hubot-python-scripts-master\hubot-python-scripts-master'
+29 error enoent ENOENT: no such file or directory, open 'd:\codes\hubot\hubot-python-scripts-master\hubot-python-scripts-master'
+29 error enoent This is most likely not a problem with npm itself
+29 error enoent and is related to npm not being able to find a file.
+30 verbose exit [ -4058, true ]
